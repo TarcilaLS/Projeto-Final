@@ -1,0 +1,19 @@
+main{
+    background-color: black;
+}
+
+div.container-fluid{
+    padding: 0;
+}
+
+div.flex{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen and (min-width: 36em){
+    .flex2{
+        height: 90vh;
+    }
+}
